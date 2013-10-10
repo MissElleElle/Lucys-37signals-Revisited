@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$('#button1').hover(function(){
+		$('#maindiv').addClass('hidden');
+		$('#hiddenheadline1').removeClass('hidden');
+	},function(){
+		$('#maindiv').removeClass('hidden');
+		$('#hiddenheadline1').addClass('hidden');
+	});
+	$('#button2').hover(function(){
+		$('#maindiv').addClass('hidden');
+		$('#hiddenheadline2').removeClass('hidden');
+	},function(){
+		$('#maindiv').removeClass('hidden');
+		$('#hiddenheadline2').addClass('hidden');
+	});
+	$('#button3').hover(function(){
+		$('#maindiv').addClass('hidden');
+		$('#hiddenheadline3').removeClass('hidden');
+	},function(){
+		$('#maindiv').removeClass('hidden')
+		$('#hiddenheadline3').addClass('hidden')
+	});
+});
